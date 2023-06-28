@@ -12,7 +12,7 @@ const options = {
   headers: {
     'Content-Type': 'application/json',
     // 添加你的OpenAI身份验证头部信息
-    'Authorization': 'Bearer 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',
+    'Authorization': 'Bearer ${process.env.YOUR_OPENAI_API_KEY}',
   },
 };
 
